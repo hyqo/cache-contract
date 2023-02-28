@@ -6,6 +6,8 @@ interface ItemInterface
 {
     public function getKey(): string;
 
+    public function isHit(): bool;
+
     public function get(): mixed;
 
     public function set(mixed $value): static;
