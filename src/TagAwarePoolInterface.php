@@ -1,6 +1,6 @@
 <?php
 
-namespace Hyqo\Cache\Contract;
+namespace Hyqo\Contract\Cache;
 
 interface TagAwarePoolInterface extends PoolInterface
 {
